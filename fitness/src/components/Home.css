@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://f.mixsport.pro/article/838/iVNpt.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+header, section, footer {
+    padding: 40px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #333;
+}
+
+header p, ul li, footer p, #contact-form h2 {
+    color: #000;
+}
+
+section h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+button {
+    padding: 15px 40px;
+    background-color: #ff5555;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+#main-section {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 40px;
+    color: #000;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#main-section h2, footer p {
+    font-size: 24px;
+}
+
+ul {
+    font-size: 18px;
+}
